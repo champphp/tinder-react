@@ -1,11 +1,12 @@
 import './App.css';
-import Header from './Header/Header'
+import Header from './header/Header'
+import TinderCards from './tinder-cards/TinderCards'
 
 function App() {
   return (
     <div className="app">
       <Header />
-      {/* Tinder card */}
+      <TinderCards />
       {/* SwipeButton */}
     </div>
   );
